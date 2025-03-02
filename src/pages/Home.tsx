@@ -187,7 +187,7 @@ const Home: React.FC = () => {
                   component="img"
                   height="140"
                   image="https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80"
-                  alt="Personalized Action Plan"
+                  alt="Personalised Action Plan"
                 />
                 <CardContent>
                   <Box sx={{ display: 'flex', alignItems: 'center', mb: 1 }}>
@@ -197,7 +197,7 @@ const Home: React.FC = () => {
                     </Typography>
                   </Box>
                   <Typography variant="body2" color="text.secondary">
-                    Get a personalized step-by-step plan for your immigration journey from the UK to Australia.
+                    Get a personalised step-by-step plan for your immigration journey from the UK to Australia.
                   </Typography>
                 </CardContent>
               </CardActionArea>
@@ -236,7 +236,7 @@ const Home: React.FC = () => {
           </Typography>
           <Divider sx={{ mb: 3 }} />
           <Typography variant="body1" paragraph>
-            The UK to Australia Immigration Helper is designed to simplify the complex process of migrating from the United Kingdom to Australia. Our goal is to provide accurate, up-to-date information and personalized guidance to help you navigate the Australian immigration system.
+            The UK to Australia Immigration Helper is designed to simplify the complex process of migrating from the United Kingdom to Australia. Our goal is to provide accurate, up-to-date information and personalised guidance to help you navigate the Australian immigration system.
           </Typography>
           <Typography variant="body1" paragraph>
             This tool is particularly useful for skilled workers, families, and individuals looking to start a new life in Australia. We cover various visa pathways, eligibility requirements, points calculations, and provide step-by-step action plans to make your immigration journey smoother.

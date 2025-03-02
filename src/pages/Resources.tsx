@@ -98,7 +98,7 @@ const Resources: React.FC = () => {
     {
       title: 'Study in Australia',
       description: 'Information about studying in Australia',
-      link: 'https://www.studyinaustralia.gov.au/',
+      link: 'https://www.studyaustralia.gov.au/',
       icon: <SchoolIcon />
     },
     {
@@ -131,7 +131,7 @@ const Resources: React.FC = () => {
     {
       title: 'Poms in Oz Forum',
       description: 'Forum for UK expats in Australia',
-      link: 'https://www.pomsinoz.com/',
+      link: 'https://www.pomsinoz.com/forum/',
       icon: <LinkIcon />
     },
     {
@@ -143,7 +143,7 @@ const Resources: React.FC = () => {
     {
       title: 'British Expats',
       description: 'Forum for British expats worldwide, with active Australia sections',
-      link: 'https://britishexpats.com/forum/australia-27/',
+      link: 'https://britishexpats.com/forum/',
       icon: <LinkIcon />
     }
   ];
@@ -152,37 +152,37 @@ const Resources: React.FC = () => {
     {
       title: 'UK to Australia Migration',
       description: 'A dedicated group for UK citizens planning their move to Australia. Get advice on visa applications, skills assessments, and preparing for the big move.',
-      link: 'https://www.facebook.com/groups/uktoaustraliamigration',
+      link: 'https://www.facebook.com/search/groups/?q=uk%20to%20australia%20migration',
       icon: <FacebookIcon />
     },
     {
       title: 'Moving to Australia from the UK',
       description: 'Support group specifically for Britons in the planning and preparation stages of emigrating to Australia. Find tips on shipping, documentation, and pre-arrival planning.',
-      link: 'https://www.facebook.com/groups/movingtoaustraliafromuk',
+      link: 'https://www.facebook.com/search/groups/?q=moving%20to%20australia%20from%20uk',
       icon: <FacebookIcon />
     },
     {
       title: 'UK to Australia - Skilled Migration Pathway',
       description: 'Focused specifically on skilled migration pathways for UK citizens. Get assistance with occupation lists, points calculations, and visa applications before you move.',
-      link: 'https://www.facebook.com/groups/uktoausskilled',
+      link: 'https://www.facebook.com/search/groups/?q=skilled%20migration%20australia',
       icon: <FacebookIcon />
     },
     {
       title: 'Pets to Australia - UK Migration',
       description: 'Planning to bring your pet to Australia? This group specializes in the complex process of pet relocation from the UK, including quarantine requirements and preparation.',
-      link: 'https://www.facebook.com/groups/petstoaustralia',
+      link: 'https://www.facebook.com/search/groups/?q=pets%20to%20australia',
       icon: <FacebookIcon />
     },
     {
       title: 'UK Families Moving to Australia',
       description: 'A group for UK families planning their move to Australia. Get advice on schools, healthcare, and family-specific visa requirements before relocating.',
-      link: 'https://www.facebook.com/groups/ukfamiliesmovingtoaustralia',
+      link: 'https://www.facebook.com/search/groups/?q=families%20moving%20to%20australia',
       icon: <FacebookIcon />
     },
     {
       title: 'UK Healthcare Professionals Moving to Australia',
       description: 'For UK doctors, nurses, and other healthcare professionals planning to work in Australia. Get advice on registration, skills assessment, and job opportunities before you move.',
-      link: 'https://www.facebook.com/groups/ukhealthmoveaustralia',
+      link: 'https://www.facebook.com/search/groups/?q=healthcare%20professionals%20australia',
       icon: <FacebookIcon />
     }
   ];
@@ -203,7 +203,7 @@ const Resources: React.FC = () => {
     {
       title: 'PetAir UK',
       description: 'UK-based pet travel specialists with Australia expertise',
-      link: 'https://www.petairuk.com/pet-travel-to-australia/',
+      link: 'https://www.petairuk.com/australia/',
       icon: <PetsIcon />
     }
   ];
@@ -254,7 +254,7 @@ const Resources: React.FC = () => {
     },
     {
       name: "Australian Computer Society (ACS)",
-      website: "acs.org.au",
+      website: "www.acs.org.au",
       phone: "+61 2 9299 3666",
       email: "assessment@acs.org.au",
       address: "",
@@ -294,7 +294,7 @@ const Resources: React.FC = () => {
     },
     {
       name: "Chartered Accountants Australia and New Zealand",
-      website: "charteredaccountantsanz.com",
+      website: "www.charteredaccountantsanz.com",
       phone: "+61 2 9290 1344",
       email: "assessment@charteredaccountantsanz.com",
       address: "",
@@ -302,7 +302,7 @@ const Resources: React.FC = () => {
     },
     {
       name: "Australia Migration Services UK",
-      website: "australiamigration.co.uk",
+      website: "australiamigrationservices.co.uk",
       phone: "+44 203 0111 574",
       email: "info@australiamigration.co.uk",
       address: "",
@@ -327,7 +327,7 @@ const Resources: React.FC = () => {
     },
     {
       name: "Track Financial - Mortgage Services",
-      website: "trackfinancial.com",
+      website: "www.trackfinancial.com",
       phone: "02 8051 3215",
       email: "admin@trackfinancial.com.au",
       address: "",
@@ -345,7 +345,7 @@ const Resources: React.FC = () => {
     },
     {
       name: "PetAir UK",
-      website: "petairuk.com",
+      website: "www.petairuk.com",
       phone: "+44 1725 551124",
       email: "enquiries@petairuk.com",
       address: "Unit 2, Salisbury Road Business Park, Pewsey, Wiltshire, SN9 5PZ, UK",
@@ -363,17 +363,12 @@ const Resources: React.FC = () => {
     {
       name: "Living Simply Australia",
       description: "Focused on tips for settling into Australia, from finding accommodation to adapting to local life.",
-      link: "https://www.youtube.com/c/LivingSimplyAustralia"
-    },
-    {
-      name: "The Migration",
-      description: "A channel run by a registered migration agency offering detailed guidance on visa processes.",
-      link: "https://www.youtube.com/c/TheMigration"
+      link: "https://www.youtube.com/@LivingSimplyAustralia"
     },
     {
       name: "Life with Chioma",
       description: "Personal experiences and practical advice about moving to and living in Australia as an immigrant.",
-      link: "https://www.youtube.com/c/LifewithChioma"
+      link: "https://www.youtube.com/@LifewithChioma"
     }
   ];
 
@@ -599,6 +594,124 @@ const Resources: React.FC = () => {
         </Grid>
         
         <Box sx={{ mt: 6 }}>
+          <Typography variant="h5" component="h2" gutterBottom align="center">
+            Pet Relocation Resources
+          </Typography>
+          <Typography variant="subtitle1" align="center" sx={{ mb: 4 }}>
+            Help with relocating your pets to Australia
+          </Typography>
+          
+          <Card elevation={3} sx={{ mb: 6 }}>
+            <CardContent>
+              <Box sx={{ display: 'flex', alignItems: 'center', mb: 3 }}>
+                <PetsIcon color="primary" sx={{ mr: 1, fontSize: 28 }} />
+                <Typography variant="h5" component="h3">
+                  Pet Travel & Quarantine Information
+                </Typography>
+              </Box>
+              {renderResourceList(petRelocationResources)}
+              <Typography variant="body2" color="text.secondary" sx={{ mt: 2 }}>
+                Note: Australia has strict biosecurity laws for pet imports. All pets must meet specific requirements and may need to undergo quarantine.
+              </Typography>
+            </CardContent>
+          </Card>
+        </Box>
+        
+        <Box sx={{ mt: 6 }}>
+          <Typography variant="h4" component="h2" gutterBottom align="center">
+            Facebook Groups
+          </Typography>
+          <Typography variant="subtitle1" align="center" sx={{ mb: 4 }}>
+            Connect with UK expats and get firsthand advice through these active Facebook communities
+          </Typography>
+          
+          <Grid container spacing={3}>
+            {facebookGroups.map((group, index) => (
+              <Grid item xs={12} sm={6} md={4} key={index}>
+                <Card elevation={3} sx={{ height: '100%', display: 'flex', flexDirection: 'column' }}>
+                  <CardContent sx={{ flexGrow: 1 }}>
+                    <Box sx={{ display: 'flex', alignItems: 'center', mb: 2 }}>
+                      <Avatar sx={{ bgcolor: 'primary.main', mr: 2 }}>
+                        <FacebookIcon />
+                      </Avatar>
+                      <Typography variant="h6" component="h3">
+                        {group.title}
+                      </Typography>
+                    </Box>
+                    <Typography variant="body2" color="text.secondary" paragraph>
+                      {group.description}
+                    </Typography>
+                  </CardContent>
+                  <CardActions>
+                    <Button 
+                      size="small" 
+                      color="primary"
+                      href={group.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      startIcon={<FacebookIcon />}
+                      fullWidth
+                      variant="outlined"
+                    >
+                      Find Groups
+                    </Button>
+                  </CardActions>
+                </Card>
+              </Grid>
+            ))}
+          </Grid>
+        </Box>
+        
+        <Box sx={{ mt: 6 }}>
+          <Typography variant="h4" component="h2" gutterBottom align="center">
+            YouTube Channels
+          </Typography>
+          <Typography variant="subtitle1" align="center" sx={{ mb: 4 }}>
+            Video resources to help with your Australian immigration journey
+          </Typography>
+          
+          <Card elevation={3}>
+            <CardContent>
+              <Box sx={{ display: 'flex', alignItems: 'center', mb: 3 }}>
+                <YouTubeIcon color="error" sx={{ mr: 1, fontSize: 28 }} />
+                <Typography variant="h5" component="h3">
+                  Recommended YouTube Channels
+                </Typography>
+              </Box>
+              
+              <Grid container spacing={3}>
+                {youtubeChannels.map((channel, index) => (
+                  <Grid item xs={12} md={6} key={index}>
+                    <Card variant="outlined" sx={{ height: '100%' }}>
+                      <CardContent>
+                        <Typography variant="h6" component="h4" gutterBottom>
+                          {channel.name}
+                        </Typography>
+                        <Typography variant="body2" color="text.secondary" paragraph>
+                          {channel.description}
+                        </Typography>
+                      </CardContent>
+                      <CardActions>
+                        <Button 
+                          startIcon={<YouTubeIcon />}
+                          size="small" 
+                          color="error"
+                          href={channel.link}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          Watch on YouTube
+                        </Button>
+                      </CardActions>
+                    </Card>
+                  </Grid>
+                ))}
+              </Grid>
+            </CardContent>
+          </Card>
+        </Box>
+        
+        <Box sx={{ mt: 6 }}>
           <Typography variant="h4" component="h2" gutterBottom align="center">
             Service Providers
           </Typography>
@@ -675,124 +788,6 @@ const Resources: React.FC = () => {
               </Card>
             </Grid>
           </Grid>
-        </Box>
-        
-        <Box sx={{ mt: 6 }}>
-          <Typography variant="h5" component="h2" gutterBottom align="center">
-            Pet Relocation Resources
-          </Typography>
-          <Typography variant="subtitle1" align="center" sx={{ mb: 4 }}>
-            Help with relocating your pets to Australia
-          </Typography>
-          
-          <Card elevation={3} sx={{ mb: 6 }}>
-            <CardContent>
-              <Box sx={{ display: 'flex', alignItems: 'center', mb: 3 }}>
-                <PetsIcon color="primary" sx={{ mr: 1, fontSize: 28 }} />
-                <Typography variant="h5" component="h3">
-                  Pet Travel & Quarantine Information
-                </Typography>
-              </Box>
-              {renderResourceList(petRelocationResources)}
-              <Typography variant="body2" color="text.secondary" sx={{ mt: 2 }}>
-                Note: Australia has strict biosecurity laws for pet imports. All pets must meet specific requirements and may need to undergo quarantine.
-              </Typography>
-            </CardContent>
-          </Card>
-        </Box>
-        
-        <Box sx={{ mt: 6 }}>
-          <Typography variant="h4" component="h2" gutterBottom align="center">
-            Facebook Groups
-          </Typography>
-          <Typography variant="subtitle1" align="center" sx={{ mb: 4 }}>
-            Connect with UK expats and get firsthand advice through these active Facebook communities
-          </Typography>
-          
-          <Grid container spacing={3}>
-            {facebookGroups.map((group, index) => (
-              <Grid item xs={12} sm={6} md={4} key={index}>
-                <Card elevation={3} sx={{ height: '100%', display: 'flex', flexDirection: 'column' }}>
-                  <CardContent sx={{ flexGrow: 1 }}>
-                    <Box sx={{ display: 'flex', alignItems: 'center', mb: 2 }}>
-                      <Avatar sx={{ bgcolor: 'primary.main', mr: 2 }}>
-                        <FacebookIcon />
-                      </Avatar>
-                      <Typography variant="h6" component="h3">
-                        {group.title}
-                      </Typography>
-                    </Box>
-                    <Typography variant="body2" color="text.secondary" paragraph>
-                      {group.description}
-                    </Typography>
-                  </CardContent>
-                  <CardActions>
-                    <Button 
-                      size="small" 
-                      color="primary"
-                      href={group.link}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      startIcon={<FacebookIcon />}
-                      fullWidth
-                      variant="outlined"
-                    >
-                      Join Group
-                    </Button>
-                  </CardActions>
-                </Card>
-              </Grid>
-            ))}
-          </Grid>
-        </Box>
-        
-        <Box sx={{ mt: 6 }}>
-          <Typography variant="h4" component="h2" gutterBottom align="center">
-            YouTube Channels
-          </Typography>
-          <Typography variant="subtitle1" align="center" sx={{ mb: 4 }}>
-            Video resources to help with your Australian immigration journey
-          </Typography>
-          
-          <Card elevation={3}>
-            <CardContent>
-              <Box sx={{ display: 'flex', alignItems: 'center', mb: 3 }}>
-                <YouTubeIcon color="error" sx={{ mr: 1, fontSize: 28 }} />
-                <Typography variant="h5" component="h3">
-                  Recommended YouTube Channels
-                </Typography>
-              </Box>
-              
-              <Grid container spacing={3}>
-                {youtubeChannels.map((channel, index) => (
-                  <Grid item xs={12} md={6} key={index}>
-                    <Card variant="outlined" sx={{ height: '100%' }}>
-                      <CardContent>
-                        <Typography variant="h6" component="h4" gutterBottom>
-                          {channel.name}
-                        </Typography>
-                        <Typography variant="body2" color="text.secondary" paragraph>
-                          {channel.description}
-                        </Typography>
-                      </CardContent>
-                      <CardActions>
-                        <Button 
-                          startIcon={<YouTubeIcon />}
-                          size="small" 
-                          color="error"
-                          href={channel.link}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          Watch on YouTube
-                        </Button>
-                      </CardActions>
-                    </Card>
-                  </Grid>
-                ))}
-              </Grid>
-            </CardContent>
-          </Card>
         </Box>
         
         <Box sx={{ mt: 6 }}>

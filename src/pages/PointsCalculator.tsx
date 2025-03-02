@@ -55,7 +55,8 @@ const PointsCalculator: React.FC = () => {
 
     // Qualification points
     let qualificationPoints = 0;
-    if (qualification === 'diploma') qualificationPoints = 10;
+    if (qualification === "none") qualificationPoints = 0;
+    else if (qualification === 'diploma') qualificationPoints = 10;
     else if (qualification === 'bachelors') qualificationPoints = 15;
     else if (qualification === 'masters') qualificationPoints = 15;
     else if (qualification === 'doctorate') qualificationPoints = 20;
@@ -210,6 +211,7 @@ const PointsCalculator: React.FC = () => {
                   helperText="Select your highest qualification"
                   margin="normal"
                 >
+                  <MenuItem value="none">No qualification (0 points)</MenuItem>
                   <MenuItem value="diploma">Diploma (10 points)</MenuItem>
                   <MenuItem value="bachelors">Bachelor's Degree (15 points)</MenuItem>
                   <MenuItem value="masters">Master's Degree (15 points)</MenuItem>
