@@ -51,7 +51,7 @@ export const testAPIConnection = async (): Promise<{ success: boolean }> => {
 export const getAIResponse = async (userMessage: string): Promise<AIResponse> => {
   try {
     // Always use the OpenAI API in production
-    const isDevMode = true;
+    const isDevMode = false;
     
     if (isDevMode) {
       // Simulate API latency
@@ -73,7 +73,7 @@ export const getAIResponse = async (userMessage: string): Promise<AIResponse> =>
         messages: [
           { 
             role: "system", 
-            content: "You are an Australian immigration assistant specializing in providing information for UK citizens moving to Australia. Provide helpful, concise advice on visa types, points requirements, skills assessments, occupation lists, and the immigration process. Always be friendly and supportive. Format your responses with clear paragraphs, bullet points where appropriate, and line breaks between sections to improve readability. Use numbered lists for step-by-step instructions." 
+            content: "You are an Australian immigration assistant specializing in providing information for UK citizens moving to Australia. Provide helpful, concise advice on visa types, points requirements, skills assessments, occupation lists, and the immigration process. Always be friendly and supportive.\n\nFORMATTING INSTRUCTIONS (VERY IMPORTANT):\n1. Always use proper line breaks between sections (use '\\n\\n')\n2. Format lists with bullet points using '•' or numbered lists where appropriate\n3. Use indentation for sub-points (e.g., '  - Sub-point')\n4. Organize information in clear sections with headers\n5. For visa types, points, and requirements, always use structured lists\n6. Ensure there are line breaks before and after each list or section\n\nYour responses should be well-structured and easy to read at a glance." 
           },
           { role: "user", content: userMessage }
         ],
