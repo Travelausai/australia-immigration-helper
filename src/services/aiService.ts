@@ -51,7 +51,7 @@ export const testAPIConnection = async (): Promise<{ success: boolean }> => {
 export const getAIResponse = async (userMessage: string): Promise<AIResponse> => {
   try {
     // Always use the OpenAI API in production
-    const isDevMode = false;
+    const isDevMode = true;
     
     if (isDevMode) {
       // Simulate API latency
