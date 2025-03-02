@@ -124,6 +124,12 @@ const Resources: React.FC = () => {
       description: 'Australia\'s leading property portal for buying, selling, or renting',
       link: 'https://www.realestate.com.au/',
       icon: <HomeIcon />
+    },
+    {
+      title: 'ViewBuddy Perth',
+      description: 'Assists people moving interstate by attending rental viewings on their behalf, helping them secure a rental before arrival',
+      link: 'https://viewbuddyperth.com.au',
+      icon: <HomeIcon />
     }
   ];
 

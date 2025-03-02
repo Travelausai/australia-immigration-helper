@@ -91,10 +91,34 @@ const Home: React.FC = () => {
             justifyContent="center"
             sx={{ mt: 3 }}
           >
-            <Chip label="Visa Eligibility Check" color="primary" variant="outlined" sx={{ color: 'white' }} />
-            <Chip label="Points Calculator" color="primary" variant="outlined" sx={{ color: 'white' }} />
-            <Chip label="English Test Guides" color="primary" variant="outlined" sx={{ color: 'white' }} />
-            <Chip label="Community Resources" color="primary" variant="outlined" sx={{ color: 'white' }} />
+            <Chip 
+              label="Visa Eligibility Check" 
+              color="primary" 
+              variant="outlined" 
+              sx={{ color: 'white', cursor: 'pointer' }} 
+              onClick={() => navigate('/eligibility')}
+            />
+            <Chip 
+              label="Points Calculator" 
+              color="primary" 
+              variant="outlined" 
+              sx={{ color: 'white', cursor: 'pointer' }} 
+              onClick={() => navigate('/points-calculator')}
+            />
+            <Chip 
+              label="Resources" 
+              color="primary" 
+              variant="outlined" 
+              sx={{ color: 'white', cursor: 'pointer' }} 
+              onClick={() => navigate('/resources')}
+            />
+            <Chip 
+              label="AI Assistant" 
+              color="primary" 
+              variant="outlined" 
+              sx={{ color: 'white', cursor: 'pointer' }} 
+              onClick={() => navigate('/chatbot')}
+            />
           </Stack>
         </Paper>
 
